@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# 📚 Syllabite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Syllabite is an intelligent academic scheduling assistant that **leverages AI to transform your course syllabi into a personalized, dynamic study calendar**. Upload syllabi files, define your free time, and let the app automatically generate a balanced schedule with integrated study sessions, deadlines, and a downloadable `.ics` file.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Setup Guide
 
-### `npm start`
+### 1. Clone the Repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`git clone https://github.com/VanshAnand1/Syllabite.git`  
+`cd Syllabite`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Install Dependencies
 
-### `npm test`
+Run the following in the root of the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`
 
-### `npm run build`
+### 3. Set Your Gemini API Key
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Create a `.env` file in the root of the project:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔐 **Keep your API key safe. Never expose it in public repos.**
 
-### `npm run eject`
+### 4. Start the App
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This runs the app in development mode at:  
+[http://localhost:3000](http://localhost:3000)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 File Overview
 
-## Learn More
+| File / Folder           | Purpose                                           |
+|-------------------------|---------------------------------------------------|
+| `App.js`                | Main application logic, handles API calls & flow |
+| `CalendarOverview.js`   | Interactive calendar component                    |
+| `public/`               | Static assets and entry `index.html`              |
+| `.env`                  | Environment variable for your API key             |
+| `package.json`          | Dependencies and project metadata                 |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💡 Inspiration
 
-### Code Splitting
+Students today juggle multiple courses, deadlines, and responsibilities. **Syllabite** is here to **augment academic success** by **automating time management with modern AI**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Focus on learning — **we’ll handle the planning**.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 👩‍💻 Built With
 
-### Making a Progressive Web App
+- 🧠 Gemini Flash API  
+- ⚛️ React  
+- 📦 Vite or Create React App  
+- 🗃 PDF.js  
+- 🎨 Custom CSS styling  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📌 Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- 🎨 Course color-coding on the calendar  
+- 🗓 Multi-semester support  
+- ✏️ Editable events  
+- 🔄 Real-time calendar sync  
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 License
 
-### `npm run build` fails to minify
+MIT – use it, modify it, build on it 🔓
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+Made with ❤️ by **Sajan**, **Krish**, **Sahij**, **Vansh**, and **AI**
